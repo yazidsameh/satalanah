@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.main-width {
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(#fb6466, #ec03bb, #fbb936);
+  position: relative;
+}
+.hero header .logo h2 a {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.hero header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+  border-bottom: 2px solid white;
+}
+nav ul li.active a {
+  background: transparent;
+  color: white;
+  border: 1px solid #f5dca8;
+  padding: 9px 20px;
+  border-radius: 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav ul li.active:hover a {
+  border: 1px solid white;
+  color: black;
+  background: white;
+  transition: 0.4s;
+}
+.content {
+  padding-top: 50px;
+}
+.content .main {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+.content .main h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40px;
+}
+.content .main h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: white;
+  margin: 0px 0px 45px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.content .main h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.content .main p {
+  max-width: 100%;
+  width: 480px;
+  color: white;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.content .main a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 1px solid white;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.content .main a:hover {
+  transform: scale(1.2);
+  border: 1px solid #f5dca8;
+  background: transparent;
+  color: white;
+  transition: 0.4s;
+}
+.content .main a.cta {
+  border: 1px solid #f5dca8;
+  color: white;
+  background: transparent;
+  margin-left: 20px;
+}
+.content .main a.act i {
+  margin-right: 12px;
+}
+.content .main a.act:hover {
+  color: #000;
+  background: white;
+  border: 1px solid white;
+  transition: 0.4;
+}
